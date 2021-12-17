@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Application for a Job</title>
 </head>
 <body>
-    
+    <h1 style="text-align: center;">Job Application</h1>
+    <div style="border: solid 2px rgb(223, 202, 223); padding: .5rem;">
+        <form>
+            <fieldset>
+                <legend>General Information</legend>
+                <p>
+                    <label>Applicant's Full Name: <input /></label>
+                </p>
+                <p>
+                    <label for="DOB">Date of Birth:</label>
+                    <input type="date" name="date-of-birth" id="DOB" min="1900-01-01" max="2005-01-01">
+                </p>
+                <p>
+                    <label>Social Security Number: <input type="password"></label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <p>
+                    Why would you be a good fit for our company?
+                    <br />
+                    <br />
+                    <textarea name="fit" cols="80" rows="5"></textarea>
+                </p>
+                <p>
+                    What is your biggest strength?
+                    <br />
+                    <br />
+                    <textarea name="fit" cols="80" rows="5"></textarea>
+                </p>
+                <p>
+                    What is your biggest weakness?
+                    <br />
+                    <br />
+                    <textarea name="fit" cols="80" rows="5"></textarea>
+                </p>
+            </fieldset>
+            <br />
+            <nav style="text-align: center;">
+                <a href="./resume.html">Submit Resume Here</a>
+            </nav>
+            <br />
+        </form>
+    </div>
+    <div>
+        <h3>Organizational Culture</h3>
+        <p>We take pride in having good organizational culture, please watch the video below to familarize yourself with what Organizational Culture is about.</p>
+        <iframe src="https://www.youtube.com/embed/4cBN8xH-5Qw" frameborder="0" width="560" height="315" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
